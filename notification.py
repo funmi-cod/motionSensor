@@ -3,9 +3,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 mail_content = 'INTRUDER ALERT!!! \n\nThis is to notify you that an intruder was detect in your office. \n from \nRaspbery'
 #The mail addresses and password
-sender_address = 'raspberrypieye01@gmail.com'
-sender_pass = 'raspeye04'
-receiver_address = 'elijahmaria04@gmail.com'
+sender_address = #ENTER RASPBERRY EMAIL ADDRESS
+sender_pass = #ENTER PASSWORD
+receiver_address = #ENTER RECEIVER EMAIL ADDRESS
 #Setup the MIME
 message = MIMEMultipart()
 message['From'] = sender_address
